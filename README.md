@@ -10,8 +10,8 @@ Although recent CNN-based single image SR networks (e.g., EDSR, RDN and RCAN) ha
 
 ## Visual Results
 
-![non-integer](./Figs/non-integer SR.png)
+![non-integer](./Figs/non-integer.png)
 
-![asymmetric](./Figs/asymmetric SR.png)
+![asymmetric](./Figs/asymmetric.png)
 
 ## Demo
