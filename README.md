@@ -8,4 +8,7 @@ Although recent CNN-based single image SR networks (e.g., EDSR, RDN and RCAN) ha
 - We introduce a scale-aware knowledge transfer paradigm to transfer knowledge from scale-specific networks to a scale-arbitrary network.
 - Experimental results show that baseline networks equipped with our module produce promising results for scale-arbitrary SR while maintaining the state-of-the-art performance for SR with integer scale factors.
 
+## Visual Results
+
+
 ## Demo
