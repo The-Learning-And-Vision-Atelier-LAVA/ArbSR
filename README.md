@@ -9,9 +9,9 @@ Although recent CNN-based single image SR networks (e.g., EDSR, RDN and RCAN) ha
 - Experimental results show that baseline networks equipped with our module produce promising results for scale-arbitrary SR while maintaining the state-of-the-art performance for SR with integer scale factors.
 
 ## Visual Results
-<img width="500" src="https://github.com/LongguangWang/Scale-Arbitrary-SR/tree/master/Figs/non-integer SR.png"/></div>
+<img width="400" src="https://github.com/LongguangWang/Scale-Arbitrary-SR/tree/master/Figs/non-integer SR.png"/></div>
 
-<img width="500" src="https://github.com/LongguangWang/Scale-Arbitrary-SR/tree/master/Figs/asymmetric SR.png"/></div>
+<img width="400" src="https://github.com/LongguangWang/Scale-Arbitrary-SR/tree/master/Figs/asymmetric SR.png"/></div>
 
 
 ## Demo
