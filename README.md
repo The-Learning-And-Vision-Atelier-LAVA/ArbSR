@@ -20,3 +20,9 @@ Although recent CNN-based single image SR networks (e.g., EDSR, RDN and RCAN) ha
 ![gif](./Figs/1.gif)
 
 ## Citation
+@article{Wang2020Learning,
+  title={Learning for Scale-Arbitrary Super-Resolution from Scale-Specific Networks},
+  author={Longguang Wang, Yingqian Wang, Zaiping Lin, Jungang Yang, Wei An, and Yulan Guo},
+  journal={arXiv},
+  year={2020}
+}
