@@ -10,6 +10,12 @@
 ## Motivation
 Although recent CNN-based single image SR networks (e.g., EDSR, RDN and RCAN) have achieved promising performance, they are developed for image SR with a single specific integer scale (e.g., x2, x3, x4). In real-world applications, non-integer SR (e.g., from 100x100 to 220x220) and asymmetric SR (e.g., from 100x100 to 220x420) are also necessary such that customers can zoom in an image arbitrarily for better view of details.
 
+We investigate the relationship between x2/x3/x4 SR tasks and observe that scale-dependency of features in the backbone module is different for different blocks and regions. Motivated by this observation, we distinguish scale-dependent features from scale-independent ones, and then perform scale-aware feature adaption adaptively.
+
+![visualization](./Figs/visualization.png)
+![mask](./Figs/mask.png)
+
+
 ## Overview
 ![non-integer](./Figs/overview.png)
 
