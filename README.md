@@ -1,4 +1,5 @@
-# Scale-Arbitrary-SR 
+# Learning for Scale-Arbitrary Super-Resolution from Scale-Specific Networks
+70 epochs to extend a baseline SR network to achieve scale-arbitrary SR with small additional computational and memory cost. 
 Paper is under review.
 
 ## Motivation
