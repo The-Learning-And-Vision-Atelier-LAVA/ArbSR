@@ -1,6 +1,5 @@
 # Learning for Scale-Arbitrary Super-Resolution from Scale-Specific Networks
 70 epochs to extend a baseline SR network to achieve scale-arbitrary SR with small additional computational and memory cost. 
-Paper is under review.
 
 ## Motivation
 Although recent CNN-based single image SR networks (e.g., EDSR, RDN and RCAN) have achieved promising performance, they are developed for image SR with a single specific integer scale (e.g., x2, x3, x4). In real-world applications, non-integer SR (e.g., from 100x100 to 220x220) and asymmetric SR (e.g., from 100x100 to 220x420) are also necessary such that customers can zoom in an image arbitrarily for better view of details.
@@ -19,3 +18,5 @@ Although recent CNN-based single image SR networks (e.g., EDSR, RDN and RCAN) ha
 ## Demo
 
 ![gif](./Figs/1.gif)
+
+## Citation
