@@ -1,5 +1,5 @@
 # ArbSR
-[[Project]]([[arXiv]](https://arxiv.org/abs/2004.03791)) [[arXiv]](https://arxiv.org/abs/2004.03791)
+[[Project]](https://longguangwang.github.io/Project/ArbSR/) [[arXiv]](https://arxiv.org/abs/2004.03791)
 - ***A plug-in module*** to extend a baseline SR network (e.g., EDSR and RCAN) to a scale-arbitrary SR network with ***small additional computational and memory cost***. 
 - Promising results for ***scale-arbitrary SR (both non-integer and asymmetric scale factors)*** while maintaining the state-of-the-art performance for SR with integer scale factors.
 
