@@ -21,7 +21,7 @@ if __name__ == '__main__':
     # load lr image
     lr = imageio.imread(args.dir_img)
     lr = np.array(lr)
-    lr = torch.Tensor(lr).permute(2, 0, 1).contiguous().view(1, 3, 170, 256).to(device)
+    lr = torch.Tensor(lr).permute(2, 0, 1).contiguous().unsqueeze(0).to(device)
 
     # model is trained on scale factors in range [1, 4]
     # one can also try out-of-distribution scale factors but the results may be not very promising
@@ -29,8 +29,8 @@ if __name__ == '__main__':
     assert args.sr_size[1] / lr.size(3) > 1 and args.sr_size[1] / lr.size(3) <= 4
 
     with torch.no_grad():
-        scale = args.sr_size[0] / 170
-        scale2 = args.sr_size[1] / 256
+        scale = args.sr_size[0] / lr.size(2)
+        scale2 = args.sr_size[1] / lr.size(3)
         model.set_scale(scale, scale2)
         sr = model(lr)
 
