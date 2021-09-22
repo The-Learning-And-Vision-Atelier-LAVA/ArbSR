@@ -31,7 +31,7 @@ Although recent CNN-based single image SR networks (e.g., EDSR, RDN and RCAN) ha
 
 1.1 Download DIV2K training data (800 training images) from [DIV2K dataset](https://data.vision.ee.ethz.ch/cvl/DIV2K/) or [SNU_CVLab](https://cv.snu.ac.kr/research/EDSR/DIV2K.tar).
 
-1.2 Cd to `/utils` and run `gen_training_data.m` in Matlab to prepare HR/LR images in `your_data_path` as belows:
+1.2 Cd to `./utils` and run `gen_training_data.m` in Matlab to prepare HR/LR images in `your_data_path` as belows:
 ```
 your_data_path
 └── DIV2K
@@ -62,7 +62,7 @@ Run `./main.sh` to train on the DIV2K dataset. Please update `dir_data` in the b
 
 1.1 Download [benchmark datasets](https://github.com/xinntao/BasicSR/blob/a19aac61b277f64be050cef7fe578a121d944a0e/docs/Datasets.md) (e.g., Set5, Set14 and other test sets).
 
-1.2 Cd to `/utils` and run `gen_test_data.m` in Matlab to prepare HR/LR images in `your_data_path` as belows:
+1.2 Cd to `./utils` and run `gen_test_data.m` in Matlab to prepare HR/LR images in `your_data_path` as belows:
 ```
 your_data_path
 └── benchmark
