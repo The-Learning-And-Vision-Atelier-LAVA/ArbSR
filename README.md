@@ -107,15 +107,15 @@ Run `./test.sh` to test on benchmark datasets. Please update `dir_data` in the b
 Run `./quick_test.sh` to enlarge an LR image to an arbitrary size. Please update `dir_img` in the bash file as `your_img_path`.
 
 ## Visual Results
-### SR with Symmetric Scale Factors
+### 1. SR with Symmetric Scale Factors
 
 ![non-integer](./Figs/non-integer.png)
 
-### SR with Asymmetric Scale Factors
+### 2. SR with Asymmetric Scale Factors
 
 ![asymmetric](./Figs/asymmetric.png)
 
-### SR with Continuous Scale Factors
+### 3. SR with Continuous Scale Factors
 
 Please try our [[interactive viewer]](https://longguangwang.github.io/Project/ArbSR/).
 
