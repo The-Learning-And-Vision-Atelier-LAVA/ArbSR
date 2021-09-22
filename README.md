@@ -51,8 +51,6 @@ your_data_path
 			└── 0800.png
 ```
 
-1.3 Specify `--dir_data` based on the HR and LR images path. In option.py, '--ext' is set as 'sep_reset', which first convert .png to .npy. If all the training images (.png) are converted to .npy files, then set '--ext sep' to skip converting files.
-
 ### 2. Begin to train
 Run `./main.sh` to train on the DIV2K dataset. Please update `dir_data` in the bash file as `your_data_path`.
 
