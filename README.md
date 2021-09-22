@@ -117,7 +117,7 @@ Run `./quick_test.sh` to enlarge an LR image to an arbitrary size. Please update
 
 ### 3. SR with Continuous Scale Factors
 
-Please try our [[interactive viewer]](https://longguangwang.github.io/Project/ArbSR/).
+Please try our [interactive viewer](https://longguangwang.github.io/Project/ArbSR/).
 
 ## Citation
 ```
