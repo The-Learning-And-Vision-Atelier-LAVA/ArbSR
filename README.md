@@ -104,7 +104,7 @@ Run `./test.sh` to test on benchmark datasets. Please update `dir_data` in the b
 
 
 ## Quick Test on An LR Image
-Run `./quick_test.sh` to enlarge an LR image to an arbitrary size. Please update `img_dir` in the bash file as `your_img_path`.
+Run `./quick_test.sh` to enlarge an LR image to an arbitrary size. Please update `dir_img` in the bash file as `your_img_path`.
 
 ## Visual Results
 ### SR with Symmetric Scale Factors
