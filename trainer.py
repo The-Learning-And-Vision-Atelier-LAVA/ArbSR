@@ -33,12 +33,6 @@ class Trainer():
         self.loss.step()
         epoch = self.scheduler.last_epoch + 1
 
-        # adjust learning rate
-        lr = self.args.lr * (2 ** -(epoch // 30))
-        for param_group in self.optimizer.param_groups:
-            param_group['lr'] = lr
-
-        self.ckp.write_log('[Epoch {}]\tLearning rate: {:.2e}'.format(epoch, Decimal(lr)))
         self.loss.start_log()
         self.model.train()
 
@@ -47,9 +41,20 @@ class Trainer():
         # train on integer scale factors (x2, x3, x4) for 1 epoch to maintain stability
         if epoch == 1:
             self.loader_train.dataset.first_epoch = True
+            # adjust learning rate
+            lr = 5e-5
+            for param_group in self.optimizer.param_groups:
+                param_group['lr'] = lr
+
         # train on all scale factors for remaining epochs
         else:
             self.loader_train.dataset.first_epoch = False
+            # adjust learning rate
+            lr = self.args.lr * (2 ** -(epoch // 30))
+            for param_group in self.optimizer.param_groups:
+                param_group['lr'] = lr
+
+        self.ckp.write_log('[Epoch {}]\tLearning rate: {:.2e}'.format(epoch, Decimal(lr)))
 
         for batch, (lr, hr, _, idx_scale) in enumerate(self.loader_train):
             lr, hr = self.prepare(lr, hr)
