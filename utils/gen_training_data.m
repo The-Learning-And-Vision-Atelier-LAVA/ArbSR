@@ -24,7 +24,7 @@ for idx_im = 1:n_imgs
 end
 
 %% generate LR images with symmetric scale factors
-scales = 1.1:0.1:1.4;
+scales = 1.1:0.1:4.0;
 n_scale = length(scales);
 
 for idx_im = 1:n_imgs
