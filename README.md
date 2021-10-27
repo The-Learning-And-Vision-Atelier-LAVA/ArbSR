@@ -2,7 +2,7 @@
 Pytorch implementation of "Learning A Single Network for Scale-Arbitrary Super-Resolution", ICCV 2021
 
 
-[[Project]](https://longguangwang.github.io/Project/ArbSR/) [[arXiv]](https://arxiv.org/abs/2004.03791)
+[[Project]](https://longguangwang.github.io/Project/ArbSR/) [[arXiv]](https://arxiv.org/abs/2004.03791) [[Replicate Demo and Docker Image]](https://replicate.ai/longguangwang/arbsr)
 
 ## Highlights
 - ***A plug-in module*** to extend a baseline SR network (e.g., EDSR and RCAN) to a scale-arbitrary SR network with ***small additional computational and memory cost***. 
